@@ -17,11 +17,14 @@ void main() => runApp(MaterialApp(
       backgroundColor: Colors.red[600],
     ),
     body: Center(
-      child: Icon(
-        Icons.airport_shuttle,
-        color: Colors.lightBlue,
-        size: 50.0,
-      )
+      child: RaisedButton.icon(
+        onPressed: () {},
+        icon: Icon(
+          Icons.mail
+        ),
+        label: Text('mail me'),
+        color: Colors.amber,
+      ),
       //Image.network('https://images.unsplash.com/photo-1534254910684-68bdc1d69cf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'),
       // child: Image(
       //   image: Image.asset('assets/space.jpg'),
