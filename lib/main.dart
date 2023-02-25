@@ -16,26 +16,11 @@ void main() => runApp(MaterialApp(
       centerTitle: true,
       backgroundColor: Colors.red[600],
     ),
-    body: Center(
-      child: RaisedButton.icon(
-        onPressed: () {},
-        icon: Icon(
-          Icons.mail
-        ),
-        label: Text('mail me'),
-        color: Colors.amber,
-      ),
-      //Image.network('https://images.unsplash.com/photo-1534254910684-68bdc1d69cf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'),
-      // child: Image(
-      //   image: Image.asset('assets/space.jpg'),
-      //   // image: NetworkImage('https://images.unsplash.com/photo-1534841090574-cba2d662b62e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80'),
-      // ),
-    ),
-    floatingActionButton: FloatingActionButton(
-        onPressed: () {
-        },
-        child: Text('Click'),
-      backgroundColor: Colors.red[600],
+    body: Container(
+      padding: EdgeInsets.all(20.0),
+      margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 30.0),
+      color: Colors.grey[400],
+      child: Text('Hello'),
     ),
   ),
 ));
